@@ -1,0 +1,148 @@
+body
+{
+    background: #585858;
+    color: #fff;
+    font-family: "Helvetica";
+    margin: 0;
+    padding: 0;
+}
+
+.menu
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20px;
+    background: rgb(255, 255, 255);
+    height: auto;
+    padding: 10px;
+}
+
+.logo
+{
+    border: 1px solid red;
+    height: 75px;
+    width: 300px;
+}
+
+.logo img
+{
+    height: 100%;
+    width: 100%;
+}
+
+.link
+{
+    margin: 10px;
+    /* display: flex; */
+    padding: 30px auto;
+    border: 1px solid rgb(1, 204, 255);
+}
+
+.link a
+{
+    font-weight: bold;
+    margin: auto 30px;
+    text-decoration: none;
+    color: #000;
+}
+
+
+ .hero
+{
+    background: url("/img/hero-banner-1.jpg") no-repeat center center;
+    background-size: cover;
+    height: 90vh;
+    /* align-items: center; */
+    position: relative;
+}
+
+
+.intro
+{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    height: 300px;
+    width: 450px;
+    background:rgb(122, 82, 82);
+    padding: 40px;
+    text-align: center;
+}
+
+.intro .title
+{
+    margin: 20px;
+    font-size: 50px;
+    font-weight: bold;
+
+}
+
+.intro .details
+{
+    line-height: 25px;
+}
+
+.green
+{
+    position: absolute;
+    padding: 10px 40px;
+    bottom: 0;
+    height: auto;
+    background: green;
+}
+
+.services
+{
+    height: 80vh;
+    text-align: center;
+}
+
+.services h1
+{
+    margin: 80px;
+    font-size: 2.5rem;
+}
+
+.srv-list
+{
+    display: grid;
+    grid-template-columns: 337px;
+    grid-template-rows: 337px 337px 337px 337px;
+    /* grid-column-gap: 30px; */
+    justify-content: center;
+}
+
+.srv-list .one
+{
+    background: url("/img/hero-banner-1.jpg") no-repeat center center;
+    opacity: 0.6;
+    background-size: cover;
+    /* background: red; */
+}
+
+.srv-list .two
+{
+    background: url("/img/hero-banner-2.jpg") no-repeat center center;
+    opacity: 0.7;
+    background-size: cover;
+    /* background: khaki; */
+}
+
+.srv-list .three
+{
+    background: url("/img/hero-banner-4.jpg") no-repeat center center;
+    opacity: 0.5;
+    background-size: cover;
+}
+.srv-list .four
+{
+    background: url("/img/hero-banner-3.jpg") no-repeat center center;
+    opacity: 0.9;
+    background-size: cover;
+}
+
+
+
