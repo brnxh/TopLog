@@ -20,7 +20,7 @@ body
 
 .logo
 {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: 75px;
     width: 300px;
 }
@@ -36,7 +36,7 @@ body
     margin: 10px;
     /* display: flex; */
     padding: 30px auto;
-    border: 1px solid rgb(1, 204, 255);
+    /* border: 1px solid rgb(1, 204, 255); */
 }
 
 .link a
@@ -65,9 +65,9 @@ body
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 20px;
-    height: 300px;
-    width: 450px;
-    background:rgb(122, 82, 82);
+    height: auto;
+    width: auto;
+    background:rgba(122, 82, 82, 0.542);
     padding: 40px;
     text-align: center;
 }
@@ -80,6 +80,11 @@ body
 
 }
 
+.title span
+{
+    color: rgb(28, 232, 28);
+}
+
 .intro .details
 {
     line-height: 25px;
@@ -89,9 +94,15 @@ body
 {
     position: absolute;
     padding: 10px 40px;
-    bottom: 0;
+    bottom: -5px;
     height: auto;
     background: green;
+}
+
+.green p
+{
+    text-align: center;
+    width: auto;
 }
 
 .services
@@ -102,22 +113,24 @@ body
 
 .services h1
 {
-    margin: 80px;
+    margin-top: 50px;
     font-size: 2.5rem;
 }
 
 .srv-list
 {
+    padding: 30px;
     display: grid;
-    grid-template-columns: 337px;
-    grid-template-rows: 337px 337px 337px 337px;
+    grid-template-columns: 350px;
+    grid-template-rows: 350px 350px 350px 350px;
     /* grid-column-gap: 30px; */
+    grid-row-gap: 30px;
     justify-content: center;
 }
 
 .srv-list .one
 {
-    background: url("/img/hero-banner-1.jpg") no-repeat center center;
+    background: url("/img/hero-banner.jpg") no-repeat center center;
     opacity: 0.6;
     background-size: cover;
     /* background: red; */
